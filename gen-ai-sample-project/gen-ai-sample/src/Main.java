@@ -3,11 +3,11 @@ public class Main {
         System.out.println(get_greeting_message());
     }
 
-    public static String get_greeting_message() {
-        return "Hello world!";
+    public static String get_greeting_message(String name) {
+        return "Hello "+name;
     }
 
     public void dummy() {
-
+	//this is a dummy function 
     }
 }
