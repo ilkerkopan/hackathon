@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plugin
+   id="my sample plugin"
+   name="My sample plugin"
+   version="1.0.0"
+   provider_name="demo"
+   state="released">
+
+	<description>Sample plugin to test openai review capabilities</description>
+ 	
+</plugin>
