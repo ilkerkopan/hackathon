@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+    <element name="sample_table" type="collection" label="Sample table" audit="false">
+        <element name="name" label="Name" type="string"  />
+        <element name="surname" label="Surname" type="string" />
+        <element name="dashboard" label="Dashboard" type="reference" />
+        <element name="role" label="role" type="reference" reference="role" />
+    </element>
+</database>
