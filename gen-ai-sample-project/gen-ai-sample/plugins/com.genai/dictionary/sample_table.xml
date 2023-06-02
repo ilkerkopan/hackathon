@@ -4,6 +4,6 @@
         <element name="name" label="Name" type="string"  />
         <element name="surname" label="Surname" type="string" />
         <element name="dashboard" label="Dashboard" type="reference" />
-        
+        <element name="role" label="role" type="reference" reference="role" />
     </element>
 </database>
